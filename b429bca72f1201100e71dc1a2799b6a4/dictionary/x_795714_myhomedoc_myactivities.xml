@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="MyActivities" max_length="40" name="x_795714_myhomedoc_myactivities" type="collection">
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Repairs" sequence="1" value="repairs"/>
+                <element inactive_on_update="false" label="Routine Checks" sequence="2" value="routine_checks"/>
+                <element inactive_on_update="false" label="Upgrade Plans" sequence="3" value="upgrade_plans"/>
+            </choice>
         </element>
         <index name="index">
             <element name="sys_class_name"/>
