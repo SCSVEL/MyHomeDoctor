@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (MyActivities)">e25df4eb2f1201100e71dc1a2799b64b</button>
+        <item_parameter display_value="MyActivities type">665df4eb2f1201100e71dc1a2799b64a</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-23 17:31:08</sys_created_on>
+        <sys_id>2a5df4eb2f1201100e71dc1a2799b64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>665df4eb2f1201100e71dc1a2799b64a</sys_name>
+        <sys_package display_value="MyHomeDoctor" source="x_795714_myhomedoc">b429bca72f1201100e71dc1a2799b6a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyHomeDoctor">b429bca72f1201100e71dc1a2799b6a4</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_2a5df4eb2f1201100e71dc1a2799b64e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-23 17:31:08</sys_updated_on>
+        <ui_parameter display_value="Type">265df4eb2f1201100e71dc1a2799b64d</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
